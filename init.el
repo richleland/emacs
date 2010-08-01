@@ -1,3 +1,5 @@
+(add-to-list 'load-path "~/.emacs.d/vendor")
+
 ;; where to store backup files
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 
