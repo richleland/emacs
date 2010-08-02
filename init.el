@@ -1,9 +1,12 @@
+(add-to-list 'load-path "~/.emacs.d")
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
 ;; where to store backup files
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 
-;; enable/configure ido-mode
-(require 'ido)
-(ido-mode t)
-(setq ido-enable-flex-matching t)
+;; load my config files
+(load "leland/defuns")
+(load "leland/modes")
+
+;; load 3rd party stuff
+(vendor 'textmate)
