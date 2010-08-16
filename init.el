@@ -2,6 +2,7 @@
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
 ;; load my config files
+(load "leland/bindings")
 (load "leland/common")
 (load "leland/custom")
 (load "leland/defuns")

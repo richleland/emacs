@@ -15,7 +15,3 @@
 
 ;; locaiton of the M-x customize save file
 (setq custom-file "~/.emacs.d/leland/custom.el")
-
-;; key bindings
-(global-set-key [s-up] 'beginning-of-buffer)
-(global-set-key [s-down] 'end-of-buffer)
