@@ -9,4 +9,5 @@
 
 ;; load 3rd party stuff
 (vendor 'flymake)
+(vendor 'gist)
 (vendor 'textmate)

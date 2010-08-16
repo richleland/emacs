@@ -4,3 +4,6 @@
 [submodule "vendor/org-mode"]
 	path = vendor/org-mode
 	url = git://repo.or.cz/org-mode.git
+[submodule "vendor/gist.el"]
+	path = vendor/gist.el
+	url = git://github.com/defunkt/gist.el.git
