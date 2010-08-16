@@ -6,6 +6,7 @@
 (load "leland/custom")
 (load "leland/defuns")
 (load "leland/modes")
+(load "leland/yas")
 
 ;; load 3rd party stuff
 (vendor 'flymake)
