@@ -13,5 +13,8 @@
 ;; where to store backup files
 (setq backup-directory-alist '(("." . "~/.emacs.d/backups")))
 
-;; locaiton of the M-x customize save file
+;; location of the M-x customize save file
 (setq custom-file "~/.emacs.d/leland/custom.el")
+
+;; turn off word wrap
+(setq-default truncate-lines t)
