@@ -18,3 +18,6 @@
 
 ;; turn off word wrap
 (setq-default truncate-lines t)
+
+;; auto-indent new lines
+(define-key global-map (kbd "RET") 'newline-and-indent)
