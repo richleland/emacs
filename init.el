@@ -14,3 +14,8 @@
 (vendor 'flymake)
 (vendor 'gist)
 (vendor 'textmate)
+(vendor 'peepopen)
+(textmate-mode)
+
+;; settings for vendor libs
+(load "leland/vendor")

@@ -18,3 +18,10 @@
   (set-frame-size (selected-frame) 1000 1000))
 
 (global-set-key (kbd "<s-S-return>") 'maximize-frame)
+
+;; respect terminal bash settings
+(defun set-exec-path-from-shell-PATH ()
+  (let ((path-from-shell (shell-command-to-string "$SHELL -l -c 'echo $PATH'")))
+    (setenv "PATH" path-from-shell)
+    (setq exec-path (split-string path-from-shell path-separator))))
+(set-exec-path-from-shell-PATH)
