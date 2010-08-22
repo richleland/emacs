@@ -21,3 +21,9 @@
 
 ;; auto-indent new lines
 (define-key global-map (kbd "RET") 'newline-and-indent)
+
+;; show column number
+(setq column-number-mode t)
+
+;; make all "yes or no" prompts show "y or n" instead
+(fset 'yes-or-no-p 'y-or-n-p)
